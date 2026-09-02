@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Note - Discipline</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="note-page">
+
+  <nav>
+    <a href="index.html" class="logo">DISCIPLINE</a>
+    <a href="note.html" class="note-link">NOTE</a>
+  </nav>
+
+
+  <main class="note-container">
+    <div class="note-header">
+      <span>note</span>
+      <button onclick="addNote()">add notes</button>
+    </div>
+
+
+    <div class="timer">
+      <span id="time">24:00</span>
+      <button onclick="startTimer()">START</button>
+      <button onclick="resetTimer()">RESET</button>
+    </div>
+
+    <!-- CHECKLIST -->
+    <div id="notes" class="notes">
+      <label class="note-item">
+        <input type="checkbox">
+        <span>LOREM</span>
+      </label>
+
+      <label class="note-item">
+        <input type="checkbox">
+        <span>IPSUM</span>
+      </label>
+
+      <label class="note-item">
+        <input type="checkbox">
+        <span>DOLOR</span>
+      </label>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
